@@ -1,0 +1,26 @@
+# Ignore virtual environment
+fraud_detection_env/
+
+# Ignore datasets
+data/PaySim Dataset/
+
+# Ignore model snapshots
+models/models--dslim--bert-base-NER/snapshots/
+models/**/snapshots/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
