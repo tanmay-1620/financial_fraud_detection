@@ -51,6 +51,28 @@ The system checks for several fraud indicators:
 2. **Suspicious Patterns**: Identifies unusual patterns in the document
 3. **Layout Anomalies**: Detects irregularities in document layout
 
+# 💾 Model Weights
+
+**Note:** Model weights are not included in this repository due to file size limitations.
+
+To use the pretrained model, download weights from:
+https://huggingface.co/dslim/bert-base-NER
+
+After downloading, place the files in the following directory:
+```
+models/models--dslim--bert-base-NER/snapshots/
+```
+If the directory does not exist, create it as shown above.
+
+**Example:**
+```
+Fraud Detection/
+├── models/
+│   └── models--dslim--bert-base-NER/
+│       └── snapshots/
+│           └── <downloaded model files here>
+```
+
 ## Screenshots
 
 Take screenshots of:
